@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Happy Birthday, [Your Girlfriend's Name]!</h1>
+      <p>You light up my life. 💖</p>
+
+      <!-- Music Controls -->
+      <button id="music-btn">🎵 Play Music</button>
+      <button id="mute-btn">🔊 Mute</button>
+      <input type="range" id="volume-slider" min="0" max="1" step="0.1" value="0.5">
+
+      <!-- Surprise button -->
+      <button id="reveal-btn">Click to reveal your surprise</button>
+      
+      <!-- Surprise message, initially hidden -->
+      <div id="surprise-message" class="hidden">
+        <h2>I love you more than words can express! 🎉</h2>
+        <p>Wishing you a day filled with love, joy, and happiness!</p>
+      </div>
+
+      <!-- Personal Images with Secret Messages -->
+      <div class="personal-images">
+        <div class="image-container">
+          <img src="./images/blue-frog.webp" alt="Memory 1" class="personal-img" id="img1">
+          <p class="secret-message hidden" id="msg1">You are my sunshine! 🌞</p>
+        </div>
+        <div class="image-container">
+          <img src="./images/Blue_glaucus.jpg" alt="Memory 2" class="personal-img" id="img2">
+          <p class="secret-message hidden" id="msg2">I love you more every day! 💖</p>
+        </div>
+        <div class="image-container">
+          <img src="./images/home-water-bodies-img.jpg" alt="Memory 3" class="personal-img" id="img3">
+          <p class="secret-message hidden" id="msg3">You're my forever and always. 💍</p>
+        </div>
+
+        <!-- Additional Images with Secret Messages -->
+        <div class="image-container">
+          <img src="./images/main image.jpg" alt="Memory 4" class="personal-img" id="img4">
+          <p class="secret-message hidden" id="msg4">Together, we can do anything! 💪</p>
+        </div>
+        <div class="image-container">
+          <img src="./images/blue-frog.webp" alt="Memory 5" class="personal-img" id="img5">
+          <p class="secret-message hidden" id="msg5">You complete me. ❤️</p>
+        </div>
+        <div class="image-container">
+          <img src="./images/Blue_glaucus.jpg" alt="Memory 6" class="personal-img" id="img6">
+          <p class="secret-message hidden" id="msg6">Every moment with you is a treasure. 💎</p>
+        </div>
+      </div>
+
+      <!-- Balloons animation -->
+      <canvas id="balloons"></canvas>
+    </div>
+  </div>
+
+  <!-- Background music -->
+  <audio id="background-music" src="./music/happy-birthday.mp3" loop></audio>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>

@@ -3,6 +3,7 @@ html,body{
     height:100%;
   }
   .bg_heart{
+    display: wrap;
     position:relative;
     top:0;
     left:0;
@@ -25,7 +26,11 @@ html,body{
     font-family:cursive;
   }
   
-  
+  .music{
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+  }
   .heart{
     position:absolute;
     top:-50%;
@@ -91,3 +96,16 @@ html,body{
   @-ms-keyframes love {
     0%{top:110%}
   }
+  
+/* Additional styling for responsiveness */
+@media screen and (max-width: 768px) {
+  .bg_heart {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bg_heart {
+    width: 100%;
+  }
+}

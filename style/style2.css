@@ -3,6 +3,9 @@ margin:0px;
 height:100%;
 }
 
+.bg_heart{
+    height: 100%
+}
 
 .mainimage{
     height: auto;
@@ -89,3 +92,41 @@ background-color: #ff4500; /* Change color when clicked */
 @-ms-keyframes love {
 0%{top:110%}
 }
+
+@media only screen and (max-width: 768px) {
+    .card {
+      padding: 15px;
+    }
+  
+    .personal-img {
+      width: 120px;
+    }
+  
+    #volume-slider {
+      width: 120px;
+    }
+  
+    .extra-link a {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .card {
+      padding: 10px;
+    }
+  
+    .personal-img {
+      width: 100px;
+    }
+  
+    #volume-slider {
+      width: 100px;
+    }
+  
+    .extra-link a {
+      font-size: 14px;
+      padding: 6px 12px;
+    }
+  }

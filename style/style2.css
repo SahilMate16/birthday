@@ -13,7 +13,6 @@ html, body {
   width: 100%;
   height: 800px;
   overflow: hidden;
-  background-image: url("./../images/mukta.jpeg");
   background-size: cover; /* Adjust to cover the whole background */
   background-position: center;
   z-index: -1;

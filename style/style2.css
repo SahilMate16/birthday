@@ -4,13 +4,13 @@ height:100%;
 }
 .bg_heart{
   display: flex;
-  background-color:#f28080;
+  background-color:#f5a3a3;
   height: auto;
   justify-content: center;
   flex-wrap: wrap;
 }
 .productcard{
-  background-color:#f28080 ;
+  background-color:#f5a3a3;
 height: 400px;
 width: 400px;
 border: 4px double black;
@@ -32,9 +32,9 @@ left:0;
 height:100%;
 width:100%;
 text-align:center;
-color:#ffffff;
+color: #ffffb3;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-margin-top: 50px;
+margin-top: 0%;
 }
 
 .music{

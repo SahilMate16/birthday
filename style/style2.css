@@ -4,8 +4,8 @@ height:100%;
 }
 .bg_heart{
   display: flex;
-  background-color:#ff6b6b;
-  height: 8%;
+  background-color:#f28080;
+  height: auto;
   justify-content: center;
   flex-wrap: wrap;
 }

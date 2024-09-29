@@ -115,4 +115,7 @@ background-color: #ff4500; /* Change color when clicked */
       font-size: 14px;
       padding: 6px 12px;
     }
+    .container{
+      font-size: x-large;
+    }
   }

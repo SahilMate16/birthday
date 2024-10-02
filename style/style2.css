@@ -1,6 +1,7 @@
 html,body{
 margin:0px;
-height:100%;
+background: linear-gradient(to right, #3a6073 0%, #3a4750 100%);
+
 /* border: 100px solid black; */
 }
 .bg_heart{
@@ -16,10 +17,12 @@ height:100%;
   /* background-color:#f5a3a3; */
   height: 500px;
   width: 400px;
-  /* border: 4px double black; */
+  /* border: 15px solid 
+  rown; */
   border-radius: 10px 10px 0px 0px;
   margin: 5px 2px;
   padding: 11px;
+  justify-content:space-evenly;
 
 }
 .card1{
@@ -27,8 +30,8 @@ height:100%;
   height: 100%;
   border-radius: 20px;
   display:flex;
-  border: 10px solid white;
-  
+  border: 3px solid wheat;
+  /* justify-content: center; */
 }
 
 .container{
@@ -37,10 +40,12 @@ top:20%;
 left:0;
 height:100%;
 width:100%;
+flex-wrap: wrap;
 text-align:center;
-color: #ffffb3;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-/* margin-top: 0%; */
+color: 	rgb(255, 179, 102);
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 30px;
+justify-content:space-between;
 }
 
 .music{
@@ -52,15 +57,15 @@ left: 40px;
 
 
 .extra-link{
-display:inline-block;
-/* font:30px bold */
-color: #ffffff; /* Text color */
-background-color: #ff6b6b; /*Background color*/
-padding: 5px 10px;
-text-decoration: none; /* Remove underline */
-border-radius: 30px 0 30px 0px;
-transition: background-color 0.3s ease, transform 0.3s ease;
-margin-bottom: 110px;
+  display: inline-block;
+  font-size: 50px;
+  color: #ffffff; /* Text color */
+  background-color: #ff6b6b; /* Background color */
+  padding:  30px;
+  text-decoration: none; /* Remove underline */
+  border-radius:50% ;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+margin-bottom: 170px;
 }
 
 

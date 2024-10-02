@@ -74,6 +74,7 @@ button:hover {
   position: relative;
   width: 30%;
   margin-bottom: 20px;
+  border: 2px solid#ff6b6b;
 }
 
 .image-container img {
